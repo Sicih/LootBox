@@ -1,0 +1,275 @@
+#pen {
+	font-size: 50px;
+	margin: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#image2 {
+	opacity: 0;
+}
+
+#image2,
+#image1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.shopping_btn {
+	margin-top: 22px;
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.head {
+	display: flex;
+	border-bottom: 2px solid black;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	transition: 1s ease-in-out;
+}
+
+.items {
+	padding: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+}
+
+.introduce {
+	font-weight: bold;
+	padding-top: 50px;
+	font-family: "Courier New", monospace;
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+.hang {
+	font-weight: bold;
+	font-family: "Courier New", monospace;
+	padding-top: 50px;
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+.banchay {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.mathang {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.banchay img {
+	margin-top: 30px;
+	height: 60%;
+}
+.mathang img {
+	margin-top: 30px;
+	height: 60%;
+}
+.banchay div {
+	background-color: lightblue;
+	height: 300px;
+	width: 300px;
+}
+.mathang div {
+	background-color: lightyellow;
+	height: 300px;
+	width: 300px;
+}
+.banchay p {
+	padding-top: 30px;
+	font-family: "Courier New", monospace;
+}
+.mathang p {
+	padding-top: 30px;
+	font-family: "Courier New", monospace;
+}
+.banchay button {
+	margin-top: 20px;
+	width: 50%;
+	padding: 10px;
+	border: 1;
+	background-color: #add8e6;
+	border-radius: 20px;
+}
+.mathang button {
+	margin-top: 20px;
+	width: 50%;
+	padding: 10px;
+	border: 1;
+	background-color: lightblue;
+	border-radius: 20px;
+}
+.banchayitem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mathangitem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.backtotop {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	background-color: lightsteelblue;
+	font-size: 20px;
+}
+
+
+.bottom {   
+	color: white;
+	display: flex;
+	background-color: #232f3e;
+	justify-content:space-around ;
+}
+
+.bottom h2 {
+    margin-top: 20px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#Aboutus{
+    width: 250px;
+}
+
+#Aboutus h2{
+    margin-bottom: 20px;
+}
+#Contact h2{
+    margin-bottom: 20px;
+}
+#Contact{
+    width: 250px;
+}
+
+#Contact p{
+    margin-bottom: 20px;
+}
+#Aboutus p{
+    margin-bottom: 20px;
+}
+
+.overlay{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background: rgba( 0, 0, 0, 0.7);
+	z-index: 1;
+}
+.dialog {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background: rgba( 0, 0, 0, 0.7);
+	z-index: 1;
+	font-family: Tahoma, sans-serif;
+}
+
+.dialog .dialog_i {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	width: 450px;
+	height: 220px;
+	z-index: 2;
+	text-align: center;	
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.dialog_i {
+	font-size: 32px;
+}
+
+.dialog_i p {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+#confirmation {
+	font-size: 40px;
+}
+
+.btn_dialog_yes{
+	font-family: Tahoma, sans-serif;
+	font-size: 20px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.btn_dialog_no{
+	font-family: Tahoma, sans-serif;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.btn_dialog_no:hover {
+	background-color: gray;
+}
+
+.btn_dialog_yes:hover {
+	background-color: gray;
+}
+
+.dialog.active .overlay {
+	display: block;
+}
+
+.dialog.active .dialog_i {
+	transition: all 300ms ease-in-out;
+	transform: translate(-50%, -50%);
+}
+
+.hide {
+	display: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.k {
+	font-size: 20px;
+}
+
+.form {
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
+#p {
+	font-size: 10px;
+	margin: 0;
+}
+
+.banchay button:hover {
+	background-color: #82c3d9;
+}
+
+.mathang button:hover {
+	background-color: #82c3d9;
+}

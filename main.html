@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shopping</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+		/>
+		<link rel="stylesheet" href="./asset/css/main.css" />
+		<link rel="stylesheet" href="./asset/css/all.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<div class="head">
+			<i class="fa-solid fa-cubes" id="pen"></i>
+			<a href="./home.html" class="shopping_btn">Home</a>
+			<a href="./main.html" class="shopping_btn">Shopping</a>
+			<a href="./aboutus.html" class="shopping_btn">About us</a>
+			<a href="./contact.html" class="shopping_btn">Contact</a>
+		</div>
+
+		<div class="items">
+			<img
+				src="./asset/img/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg"
+				alt="Fuji_Desktop_Single_image_EBF_1x_v1"
+				id="image1"
+				class="center"
+				onclick="togglePopup()"
+				style="cursor: pointer"
+			/>
+			<img
+				style="display: none"
+				src="./asset/img/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg"
+				alt="Fuji_Dash_SmartWatch_1X"
+				id="image2"
+				class="center"
+				onclick="togglePopup()"
+				style="cursor: pointer"
+			/>
+		</div>
+
+		<div class="introduce">Hàng bán chạy</div>
+
+		<div class="banchay">
+			<div class="banchayitem">
+				<img
+					src="./asset/img/mbp-silver-select-202206-jpeg-removebg-preview.png"
+					alt=""
+				/>
+				<p>All in one Apple iMac MK142</p>
+				<button onclick="togglePopup()">16.000.000đ</button>
+			</div>
+			<div class="banchayitem">
+				<img
+					src="./asset/img/10055891-dien-thoai-samsung-galaxy-z-fold-5-5g-12gb-256gb-den-1-removebg-preview.png"
+					alt=""
+				/>
+				<p>Samsung Galaxy Z Fold 5</p>
+				<button onclick="togglePopup()">35.000.000đ</button>
+			</div>
+			<div class="banchayitem">
+				<img src="./asset/img/KORE_1-3-removebg-preview.png" alt="" />
+				<p>Ghế sofa KORE - HAY Decor</p>
+				<button onclick="togglePopup()">1.200.000đ</button>
+			</div>
+		</div>
+
+		<div class="hang">Các mặt hàng</div>
+
+		<div class="mathang">
+			<div class="mathangitem">
+				<img
+					src="./asset/img/daj354_31128cc44baf4313997e93e46e0b93d8.jpg"
+					alt=""
+				/>
+				<p>Đồng hồ rolex</p>
+				<button onclick="togglePopup()">300.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/dien-thoai-iphone-11-pro-max-3a-removebg-preview (1).png"
+					alt=""
+				/>
+				<p>Điện Thoại iPhone 11 Pro Max</p>
+				<button onclick="togglePopup()">17.000.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/xiaomi-14-pre-xanh-la.jpg"
+					alt=""
+				/>
+				<p>Xiaomi 14</p>
+				<button onclick="togglePopup()">5.000.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/1764403809.jpeg"
+					alt=""
+				/>
+				<p>iPhone 15 Plus 128GB</p>
+				<button onclick="togglePopup()">25.000.000đ</button>
+			</div>
+		</div>
+		<div class="mathang">
+			<div class="mathangitem">
+				<img
+					src="./asset/img/ASSET_MMS_80651062.jpg"
+					alt=""
+				/>
+				<p>ASUS ROG Strix G17</p>
+				<button onclick="togglePopup()">20.000.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/pro_mau_tu_nhien_noi_that_moho_ghe_sofa_go_vline_2_a490ad1dcd0345ca866313b1475e34ca_large.jpg"
+					alt=""
+				/>
+				<p>Ghế Sofa Gỗ Cao Su Tự Nhiên</p>
+				<button onclick="togglePopup()">6.800.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/pro_mau_tu_nhien_ghe_don_sofa_vline_dem_be_4_a811f1622df24a609275e4aa22358795_large.jpg"
+					alt=""
+				/>
+				<p>Ghế Đôn Sofa Gỗ Cao Su</p>
+				<button onclick="togglePopup()">670.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/bep-gas-rinnai-_main_713_450.png.jpg"
+					alt=""
+				/>
+				<p>Bếp Gas Rinnai RV-260(G)N</p>
+				<button onclick="togglePopup()">800.000đ</button>
+			</div>
+		</div>
+		<div class="mathang">
+			<div class="mathangitem">
+				<img
+					src="./asset/img/noi-com-dien-bear-dfb-c16k1-1.jpg"
+					alt=""
+				/>
+				<p>Nồi cơm điện Bear DFB-C16K1</p>
+				<button onclick="togglePopup()">700.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/robot-hut-bui-ecovacs-deebot-t9-1.jpg"
+					alt=""
+				/>
+				<p>Robot hút bụi lau nhà </p>
+				<button onclick="togglePopup()">3.000.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/may-loc-khong-khi-electrolux-ep32-25uga-25w-m-thumb-1-600x600.jpg"
+					alt=""
+				/>
+				<p>Máy lọc không khí Electrolux</p>
+				<button onclick="togglePopup()">3.900.000đ</button>
+			</div>
+			<div class="mathangitem">
+				<img
+					src="./asset/img/dcd726dc4dc122c698368071b37e1247-2839126351523627479.jpg"
+					alt=""
+				/>
+				<p>Samsung Galaxy S22 Ultra</p>
+				<button onclick="togglePopup()">10.00.000đ</button>
+			</div>
+		</div>
+
+		<div class="backtotop">
+			<a href="#">Back to top</a>
+		</div>
+
+		<div class="bottom">
+			<div id="Aboutus">
+				<h2><b>About us</b></h2>
+				<p>Trang bán hàng uy tín</p>
+				<p>Sở hữu đa dạng mặt hàng</p>
+				<p>Giao hàng nhanh chóng và an toàn</p>
+				<p>Cam kết an toàn mua bán</p>
+			</div>
+			<div id="Contact">
+				<h2><b>Contact us</b></h2>
+				<p>Trung tâm trợ giúp: 0965808702</p>
+				<p>Chăm sóc khách hàng: 0965808702</p>
+				<p>Vấn đề vận chuyển: 0965808702</p>
+				<p>Vấn đề thanh toán: 0965808702</p>
+			</div>
+		</div>
+
+		<div class="dialog hide" id="dialog-1">
+			<div class="overlay"></div>
+			<div class="dialog_i">
+				<i class="fa-solid fa-mug-saucer" id="confirmation"></i>
+				<p>Xác nhận mua hàng</p>
+				<form action="" class="form">
+					<label for="Address" class="k">Địa chỉ:</label>
+					<input type="text" id="Address" placeholder="Nhập địa chỉ">
+				</form>
+				<p id="p"></p>
+				<button onclick="togglePopup_buy()" class="btn_dialog_yes" id="buy">Mua</button>
+				<button onclick="togglePopup()" class="btn_dialog_no">Huỷ</button>
+			</div>
+		</div>
+
+		<script src="./asset/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,118 @@
+.heading {
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: -80px;
+}
+
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
+    margin-top: 7px;
+}
+
+.heading p {
+    font-size: 18px;
+    color: #666;
+}
+
+#h1 {
+    font-size: 50px;
+    color: #000;
+    position: relative;
+}
+
+.pfp{
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    align-items: center;
+}
+
+.pfp-1 {
+    display: flex;
+    align-items: center;
+}
+
+#user{
+    margin: 50px;
+    font-size: 100px;
+    padding: 30px;
+    border: 5px solid black;
+}
+
+.pfp p{
+    font-size: 20px;
+    margin: 10px;
+    line-height: 2;
+}
+
+#Aboutus{
+    width: 250px;
+}
+
+#Aboutus h2{
+    margin-bottom: 20px;
+}
+#Contact{
+    width: 250px;
+}
+
+#Contact p{
+    margin-bottom: 20px;
+}
+#Aboutus p{
+    margin-bottom: 20px;
+}
+
+#Contact h2{
+    margin-bottom: 30px;
+}
+
+.logout button {
+    font-size: 17px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+.pfp {
+    font-family: Tahoma, sans-serif;
+}
+
+.logout button:hover {
+    background-color: grey;
+}
+
+.bottom {
+    width: 100%;
+    color: white;
+    display: flex;
+    background-color: #232f3e;
+    bottom: 0;
+    left: 0;
+    justify-content: space-around;
+}
+.bottom h2 {
+    margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.bottom h2 {
+    margin-top: 20px;
+	font-weight: bold;
+	font-size: 25px;
+}

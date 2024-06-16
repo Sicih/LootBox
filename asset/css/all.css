@@ -1,0 +1,34 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+button:hover {
+	cursor: pointer;
+}
+.head {
+	display: flex;
+	border-bottom: 2px solid black;
+}
+.shopping_btn {
+	margin-top: 22px;
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#pen {
+	font-size: 50px;
+	margin: 10px;
+}
+
+.head {
+	font-family: Tahoma, sans-serif;
+}
+
+body {
+	background-color: #e8f0fe;
+}
+
+.head {
+	background-color: white;
+}
